@@ -1,0 +1,2 @@
+onesixtyone -c /usr/share/seclists/Discovery/SNMP/common-snmp-community-strings.txt -i listofips #make sure to delete the entry that is > 16 Char, otherwise will error out.
+
