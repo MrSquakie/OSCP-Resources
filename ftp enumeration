@@ -1,0 +1,3 @@
+#ftp enumeration
+nmap -p 21 ip/24 --open --script=ftp-anon.se
+
